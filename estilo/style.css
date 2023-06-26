@@ -24,7 +24,6 @@ h1.titulo{
 
 div#lista-contatos{
     background-color: white;
-    padding: 20px;
     width: 90%;
     max-width: 500px;
     max-height: 400px;
@@ -32,9 +31,43 @@ div#lista-contatos{
     border-radius: 10px;
 }
 
+div#lista-contatos ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+
 #item{
     display: flex;
+    border-bottom: 1px solid #eee;
+    padding: 19px;
 }
+
+.item-imagem img{
+    width: 90px;
+    border-radius: 50%;
+}
+
+.item-content{
+    padding: 15px;
+    flex-grow: 1;
+}
+
+.item-nome{
+    font-size: 24px;
+    font-weight: bold;
+    color: #385555;
+}
+
+.item-email{
+    margin-top: 5px;
+    color: #919191;
+}
+
+.item-action{
+    align-self: center;
+    margin-right: 10px;
+}
+
 
 
 
