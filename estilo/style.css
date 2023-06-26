@@ -1,5 +1,41 @@
 @charset "UTF-8";
 
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: aqua;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+h1.titulo{
+    padding: 10px;
+    color: #385555;
+}
+
+div#lista-contatos{
+    background-color: white;
+    padding: 20px;
+    width: 90%;
+    max-width: 500px;
+    max-height: 400px;
+    overflow-y: auto;
+    border-radius: 10px;
+}
+
+#item{
+    display: flex;
+}
+
 
 
 
