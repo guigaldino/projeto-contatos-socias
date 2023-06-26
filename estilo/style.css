@@ -24,6 +24,7 @@ h1.titulo{
 
 div#lista-contatos{
     background-color: white;
+    box-shadow: 5px 4px 19px rgba(0, 0, 0, 0.256);
     width: 90%;
     max-width: 500px;
     max-height: 400px;
@@ -40,6 +41,10 @@ div#lista-contatos ul{
     display: flex;
     border-bottom: 1px solid #eee;
     padding: 19px;
+}
+
+#item:hover{
+    background-color: #e8e8e8;
 }
 
 .item-imagem img{
@@ -64,8 +69,17 @@ div#lista-contatos ul{
 }
 
 .item-action{
+    display: flex;
+    gap: 16px;
+    opacity: 0;
     align-self: center;
-    margin-right: 10px;
+    margin-right: 15px;
+}
+
+#item:hover .item-action{
+   display: flex;
+   gap: 16px;
+   opacity: .3;
 }
 
 
